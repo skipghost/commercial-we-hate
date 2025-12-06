@@ -40,7 +40,7 @@ export async function POST(req: Request) {
     );
 
     const data = await resend.emails.send({
-      from: `${INFO.BUSINESS_NAME} <no-reply@mail.tsmdesignstudio.com>`,
+      from: `${INFO.BUSINESS_NAME} <no-reply@mail.commercialswehate.com>`,
       to: [user?.email!],
       subject: `New comment on your post: ${postTitle}`,
       html,
