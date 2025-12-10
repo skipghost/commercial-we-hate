@@ -6,7 +6,8 @@ import { INFO } from "@/constants";
 import { JSONLD, META_DATA } from "@/constants/meta";
 import { Routes } from "@/constants/routes";
 
-const description = "";
+const description =
+  "Read the Commercials We Hate Privacy Policy to learn how we collect, use, and protect your personal information while you enjoy our site.";
 
 const jsonLd: WithContext<WebPage> = {
   ...JSONLD,
@@ -47,3 +48,4 @@ export default function PrivacyPolicyPage() {
     </>
   );
 }
+

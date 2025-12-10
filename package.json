@@ -1,5 +1,5 @@
 {
-  "name": "commercial-voting",
+  "name": "commercial-we-hate",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -82,3 +82,4 @@
     "graphql-tag": "^2.12.6"
   }
 }
+

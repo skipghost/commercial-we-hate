@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 
 import { INFO } from ".";
 
-const META_TITLE = "";
-const META_DESCRIPTION = "";
+const META_TITLE = "Commercials We Hate – Roast, Rank & Discuss the Ads That Make Us Cringe";
+const META_DESCRIPTION =
+  "Join Commercials We Hate, the community dedicated to roasting annoying, cringey, and frustrating ads. Vote, comment, and explore the commercials everyone loves to hate. Discover the most irritating national, local, YouTube, audio, and classic ads.";
 
 export const META_DATA = {
   title: META_TITLE,

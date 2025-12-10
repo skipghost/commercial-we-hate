@@ -1,10 +1,13 @@
 import { WebPage, WithContext } from "schema-dts";
+
+import UserAgreement from "@/sections/user-agreement";
+
 import { INFO } from "@/constants";
 import { JSONLD, META_DATA } from "@/constants/meta";
 import { Routes } from "@/constants/routes";
-import UserAgreement from "@/sections/user-agreement";
 
-const description = "";
+const description =
+  "Read the Commercials We Hate User Agreement to understand your rights, responsibilities, and rules for participating in our community.";
 
 const jsonLd: WithContext<WebPage> = {
   ...JSONLD,

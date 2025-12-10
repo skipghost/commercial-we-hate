@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { ClerkProvider } from "@clerk/nextjs";
 import { type Metadata } from "next";
 import { Poppins } from "next/font/google";

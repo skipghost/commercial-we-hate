@@ -4,7 +4,7 @@ export const INFO = {
   PHONE_NUMBER: "+1 (916) 792-7076",
   EMAIL_ADDRESS: "info@commercialswehate.com",
   BUSINESS_NAME: "Commercials We Hate",
-  WEBSITE_URL: "https://commercial-voting.vercel.app",
+  WEBSITE_URL: "https://commercialswehate.com",
   ADMIN_EMAILS: ["amir@truesocialmarketing.com"],
   MODES: {
     [Mode.LOVE]: {

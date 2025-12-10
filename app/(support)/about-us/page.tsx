@@ -6,12 +6,13 @@ import { INFO } from "@/constants";
 import { JSONLD, META_DATA } from "@/constants/meta";
 import { Routes } from "@/constants/routes";
 
-const description = "";
+const description =
+  "Join Commercials We Hate, a community where fans share, discuss, and react to the most annoying, frustrating, and entertaining ads.";
 
 const jsonLd: WithContext<WebPage> = {
   ...JSONLD,
   "@context": "https://schema.org",
-  "@type": "WebPage",
+  "@type": "AboutPage",
   name: "About Us",
   description,
   publisher: {

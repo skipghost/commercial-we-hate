@@ -6,7 +6,8 @@ import { INFO } from "@/constants";
 import { JSONLD, META_DATA } from "@/constants/meta";
 import { Routes } from "@/constants/routes";
 
-const description = "";
+const description =
+  "Read the Commercials We Hate Community Guidelines to learn how to engage respectfully, share opinions, and keep discussions about ads safe and fun for everyone.";
 
 const jsonLd: WithContext<WebPage> = {
   ...JSONLD,
